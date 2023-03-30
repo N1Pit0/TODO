@@ -1,0 +1,71 @@
+
+body{
+    background-color: rgba(249,249,249,255);
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+}
+
+h1{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.container{
+    display: block;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+}
+
+.container input[type="text"] {
+    display: block;
+    margin-bottom: 6px; 
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 97%;
+    padding: 5px;
+  }
+  
+  .container button[type="submit"] {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    background-color: green;
+    color:white;
+    padding: 5px;
+
+  }
+
+
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+  }
+  
+  .task input[type="checkbox"] {
+    margin-right: 10px;
+  } */
+
